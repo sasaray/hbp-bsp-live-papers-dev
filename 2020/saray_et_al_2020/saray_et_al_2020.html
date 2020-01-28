@@ -80,39 +80,214 @@
             The construction and simulation of anatomically and biophysically detailed models is becoming a standard tool in neuroscience (Einevoll et al., 2019). Such models, which typically employ the compartmental modeling approach and a Hodgkin-Huxley-type description of voltage-gated ion channels, are thought to be capable of providing fairly accurate models of single neurons (Bower, 2015; Hay, Hill, Schürmann, Markram, & Segev, 2011; Herz, Gollisch, Machens, & Jaeger, 2006; Káli & Freund, 2005; R. Migliore et al., 2018; Poirazi, Brannon, & Mel, 2003b; but see Almog & Korngreen, 2014) and (when complemented by appropriate models of synaptic interactions) even large-scale circuits (Markram et al., 2015). However, building such detailed multi-compartmental models of neurons requires setting a large number of parameters (such as the densities of various ion channels in multiple neuronal compartments) that are often not directly constrained by the available experimental data. These parameters are typically tuned (either manually or using automated parameter-search methods (Almog & Korngreen, 2014; Friedrich, Vella, Gulyás, Freund, & Káli, 2014; van Geit et al., 2016) until the simulated physiological behavior of the model matches some pre-defined set of experimental observations.
         </div>
         <h5>Resources</h5>
-        <p>Add a line of description:
+        <p>All info related to models, tests used in the paper are available at the links provided below, grouped into the following categories:
         </p>
         <ul class="collapsible" data-collapsible="expandable">
             <li class="active">
                 <div class="collapsible-header amber lighten-5">
-                    <i class="material-icons">settings_input_antenna</i>Add heading
+                    <i class="material-icons">chrome_reader_mode</i>Models from literature
                 </div>
                 <div class="collapsible-body ">
-                    Add content here
+                    <div style="margin-left:25px">
+                        <table class="striped">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/1655/nav/75901?state=model.01284a1d-6fd3-4cc0-8fa7-41eada65d9d9" target=”_blank”>CA1_int_bAC_011017HP2_20180110153901</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="collapsible-header amber lighten-5">
-                    <i class="material-icons">timeline</i>Add heading
+                    <i class="material-icons">local_play</i>Models from Migliore et al. 2018
                 </div>
                 <div class="collapsible-body">
-                    Add content here
+                    <p>
+                    The original version of the models reported in Migliore et al. 2018 can be found 
+                    <a href="https://humanbrainproject.github.io/hbp-bsp-live-papers/2018/migliore_et_al_2018/migliore_et_al_2018.html">here</a>.
+                    <br/>Below we list the modified version (v4) of these models employed in the current study.
+                    </p>
+                    <div style="margin-left:25px">
+                        <table class="striped">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/1655/nav/75901?state=model.01284a1d-6fd3-4cc0-8fa7-41eada65d9d9" target=”_blank”>CA1_int_bAC_011017HP2_20180110153901</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="collapsible-header amber lighten-5">
-                    <i class="material-icons">note_add</i>Add heading
+                    <i class="material-icons">iso</i>HippoUnit validation tests
                 </div>
                 <div class="collapsible-body">
-                    Add content here
+                    <p>The following tests are part of the HippoUnit test suite. They have been registered on the HBP validation framework, where further details can be accessed.</p>
+                    <div style="margin-left:25px">
+                        <table class="striped">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.100abccb-6d30-4c1e-a960-bc0489e0d82d" target="_blank" class="waves-effect waves-light">
+                                        Somatic Features Test: CA1_pyr_cACpyr
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.100abccb-6d30-4c1e-a960-bc0489e0d82d" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.4bfa8342-226b-4a65-8385-49942d576020" target="_blank" class="waves-effect waves-light">
+                                        Somatic Features Test: CA1_Pyr_PatchClamp
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.4bfa8342-226b-4a65-8385-49942d576020" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.52443043-b79e-44c8-bda6-2d16e6a2e02e" target="_blank" class="waves-effect waves-light">
+                                        Somatic Features Test: CA1_int_cNAC
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.52443043-b79e-44c8-bda6-2d16e6a2e02e" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.9b8f350f-1089-42d0-a953-289bf20e0f96" target="_blank" class="waves-effect waves-light">
+                                        Somatic Features Test: CA1_int_bAC
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.9b8f350f-1089-42d0-a953-289bf20e0f96" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.c0f52baf-53fc-45e5-8ac6-7bfa626e5f99" target="_blank" class="waves-effect waves-light">
+                                        Somatic Features Test: CA1_int_cAC
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.c0f52baf-53fc-45e5-8ac6-7bfa626e5f99" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test." target="_blank" class="waves-effect waves-light">
+                                        Depolarization Block Test: CA1
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test." target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.4d1210a6-e674-4cb6-a9cd-981a11d31175" target="_blank" class="waves-effect waves-light">
+                                        Backpropagating AP Test: CA1
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.4d1210a6-e674-4cb6-a9cd-981a11d31175" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.dd0842c0-c016-42be-98a6-18d32c2e9a3b" target="_blank" class="waves-effect waves-light">
+                                        PSP Attenuation Test: CA1
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test.dd0842c0-c016-42be-98a6-18d32c2e9a3b" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test." target="_blank" class="waves-effect waves-light">
+                                        Oblique Integration Test: CA1
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/426793?state=test." target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="collapsible-header amber lighten-5">
-                    <i class="material-icons">local_play</i>Add heading
+                    <i class="material-icons">book</i>Jupyter Notebooks
                 </div>
                 <div class="collapsible-body">
-                    Add content here
+                    <p>The following Jupyter notebooks help demonstrate how the tests available in HippoUnit can be used to validate computational models.</p>
+                    <div style="margin-left:25px">
+                        <table class="striped">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/384254" target="_blank" class="waves-effect waves-light">Validation of models from literature</a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/384254" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/524105" target="_blank" class="waves-effect waves-light">Brain Simulation Platform usecase for validation of hippocampal models</a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/524105" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/385838" target="_blank" class="waves-effect waves-light">Summary of score for all models validated with HippoUnit</a>
+                                    </td>
+                                    <td>
+                                        <a href="https://collab.humanbrainproject.eu/#/collab/54781/nav/385838" target="_blank" class="waves-effect waves-light">
+                                        <i class="material-icons left">pageview</i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </li>
         </ul>
