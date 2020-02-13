@@ -36,16 +36,16 @@
         </div>
         <div>
             <p><strong>Authors: </strong>
-            Sára Sáray <sup>1,2</sup>, 
-            Christian A. Rössert <sup>3</sup>, 
-            Shailesh Appukuttan <sup>4</sup>, 
-            Pedro E. Garcia-Rodriguez <sup>4</sup>, 
-            Rosanna Migliore <sup>5</sup>, 
-            Paola Vitale <sup>5</sup>, 
-            Michele Migliore <sup>5</sup>, 
-            Andrew P. Davison <sup>4</sup>, 
-            Eilif Muller <sup>3</sup>, 
-            Tamás F. Freund <sup>1,2</sup>, 
+            Sára Sáray <sup>1,2</sup>,
+            Christian A. Rössert <sup>3</sup>,
+            Shailesh Appukuttan <sup>4</sup>,
+            Rosanna Migliore <sup>5</sup>,
+            Paola Vitale <sup>5</sup>,
+            Carmen A. Lupascu <sup>5</sup>,
+            Luca L. Bologna <sup>5</sup>,
+            Andrew P. Davison <sup>4</sup>,
+            Eilif Muller <sup>3</sup>,
+            Tamás F. Freund <sup>1,2</sup>,
             Szabolcs Káli <sup>1,2</sup>
             </p>
             <p><strong>Author information: </strong>
@@ -76,8 +76,7 @@
         </div>
         <div class="note rounded">
             <h5>Abstract:</h5>
-            Enter abstract here... (temporarily added first paragraph of Introduction)<br/>
-            The construction and simulation of anatomically and biophysically detailed models is becoming a standard tool in neuroscience (Einevoll et al., 2019). Such models, which typically employ the compartmental modeling approach and a Hodgkin-Huxley-type description of voltage-gated ion channels, are thought to be capable of providing fairly accurate models of single neurons (Bower, 2015; Hay, Hill, Schürmann, Markram, & Segev, 2011; Herz, Gollisch, Machens, & Jaeger, 2006; Káli & Freund, 2005; R. Migliore et al., 2018; Poirazi, Brannon, & Mel, 2003b; but see Almog & Korngreen, 2014) and (when complemented by appropriate models of synaptic interactions) even large-scale circuits (Markram et al., 2015). However, building such detailed multi-compartmental models of neurons requires setting a large number of parameters (such as the densities of various ion channels in multiple neuronal compartments) that are often not directly constrained by the available experimental data. These parameters are typically tuned (either manually or using automated parameter-search methods (Almog & Korngreen, 2014; Friedrich, Vella, Gulyás, Freund, & Káli, 2014; van Geit et al., 2016) until the simulated physiological behavior of the model matches some pre-defined set of experimental observations.
+            Anatomically and biophysically detailed data-driven neuronal models can be useful tools in understanding and predicting the behavior and function of neurons. Due to the increasing availability of experimental data from anatomical and electrophysiological measurements as well as the growing number of computational and software tools that enable accurate neuronal modeling, there are now a large number of different models of many cell types available in the literature. These models were usually built to capture a few important or interesting properties of the given neuron type, and it is often unknown how they would behave outside their original context. This limits the re-use and further development of the existing models, and thus prevents the building of consensus “community models” that could capture an increasing proportion of the electrophysiological properties of the given cell type. We addressed this problem for the representative case of the CA1 pyramidal cell of the rat hippocampus by developing an open-source Python test suite, which makes it possible to automatically and systematically test the generalization properties of models by making quantitative comparisons between the models and electrophysiological data. The tests cover various aspects of somatic behavior, and signal propagation and integration in apical dendrites. To demonstrate the utility of our approach, we applied our validation tests to compare the behavior of several different hippocampal CA1 pyramidal cell models from the ModelDB database against electrophysiological data available in the literature, and concluded that all of these models perform well in some domains but badly in others. We also show how we employed the test suite to aid the development of models within the European Human Brain Project (HBP), and describe the integration of the tests into the validation framework developed in the HBP, with the aim of facilitating more reproducible and transparent community model building.
         </div>
         <h5>Resources</h5>
         <p>All info related to models, tests used in the paper are available at the links provided below, grouped into the following categories:
@@ -174,7 +173,7 @@
                 </div>
                 <div class="collapsible-body">
                     <p>
-                    The original version of the models reported in Migliore et al. 2018 can be found 
+                    The original version of the models reported in Migliore et al. 2018 can be found
                     <a href="https://humanbrainproject.github.io/hbp-bsp-live-papers/2018/migliore_et_al_2018/migliore_et_al_2018.html">here</a>.
                     <br/>Below we list the modified version (v4) of these models employed in the current study.
                     </p>
